@@ -1,0 +1,184 @@
+body
+{
+    font-family:"Open Sans", sans-serif;
+    color: #555555;
+    font-size:14px;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Varela Round', sans-serif;
+    color: #DD0000;
+}
+
+
+header
+{
+    border-top:5px solid #FF0000;
+}
+
+header .logo
+{
+    width:100px;
+    margin-right:15px;
+    margin-top:40px;
+}
+
+.wpcf7-response-output{
+    
+}
+
+.main-menu ul
+{
+    list-style: none;
+    padding:0;
+}
+.main-menu ul li
+{
+    display: inline-block;
+}
+.main-menu ul a
+{
+    font-family: 'Varela Round', sans-serif;
+    font-size:14px;
+    display: block;
+    line-height:150px;
+    padding:0 10px;
+    color: #888;
+    transition:all 0.3s;
+    text-transform: uppercase;
+}
+
+.main-menu ul a:hover
+{
+    color: #000;
+    text-decoration: none;
+    background: #f8f5f2;
+}
+
+.img-slider
+{
+    width:100%;
+}
+
+
+.list-item
+{
+    text-align: center;
+}
+
+.list-item img
+{
+    width:100%;
+    border-radius:5px;
+    transition: all 0.2s;
+}
+.list-item img:hover
+{
+    transform:scale(1.15);
+}
+.list-item h3
+{
+    color: #333;
+    font-size:17px;
+}
+
+.list-item a
+{
+    border:2px solid #CCC;
+    border-radius:5px;
+    display: inline-block;
+    padding:20px 30px;
+    text-transform: uppercase;
+}
+.list-item a:hover
+{
+    text-decoration: none;
+}
+
+
+/*Estilos para quienes somos*/
+.titulo-somos
+{
+    background: url(../img/img_default9.jpg) no-repeat;
+    background-position: center center;
+    color: #FFF;
+    text-align: center;
+    padding:30px 0;
+    margin-bottom: 50px;
+}
+.titulo-somos h1
+{
+    color: #FFF;
+    font-size:28px;
+}
+.contenido-somos
+{
+    font-size:18px;
+    line-height:1.6em;
+}
+
+
+/* Secci{on margarita */
+.margarita img
+{
+    width:100%;
+}
+
+
+
+footer
+{
+    background: #f8f5f2;
+    padding:80px 0;
+    text-align: center;
+}
+
+.list-menu
+{
+    list-style: none;
+    margin:0 0 20px 0;
+    padding:0;
+}
+.list-menu li
+{
+    display: inline-block;
+    border-right: 1px solid #b1a283;
+    padding-right:3px;
+}
+
+.list-menu li:last-child
+{
+    border-right: none;
+}
+
+.list-menu li a
+{
+    font-size:15px;
+    color: #333;
+    display: block;
+    padding:0 5px;
+}
+
+
+
+/******************************************  Common styles */
+
+.title-section
+{
+    border-bottom:6px dotted #333;
+    height:45px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title-section h1
+{
+    padding:5px 20px;
+    background: #FFF;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size:30px;
+}
+
+
+/******************************************  Common styles */

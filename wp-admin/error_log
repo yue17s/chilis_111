@@ -1,0 +1,9 @@
+[08-Aug-2017 01:33:39 UTC] Error de la base de datos de WordPress Unknown column 'wp_' in 'field list' para SELECT wp_ consultas
+[10-Aug-2017 01:26:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function weblog_reset_db_setting(), 1 passed in /home/gearslite/public_html/renato/wp-includes/class-wp-hook.php on line 298 and exactly 2 expected in /home/gearslite/public_html/renato/wp-content/themes/weblog/acmethemes/customizer/options/options-reset.php:25
+Stack trace:
+#0 /home/gearslite/public_html/renato/wp-includes/class-wp-hook.php(298): weblog_reset_db_setting(Object(WP_Customize_Manager))
+#1 /home/gearslite/public_html/renato/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /home/gearslite/public_html/renato/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/gearslite/public_html/renato/wp-includes/class-wp-customize-manager.php(2739): do_action('customize_save_...', Object(WP_Customize_Manager))
+#4 /home/gearslite/public_html/renato/wp-includes/theme.php(2874): WP_Customize_Manager->_publish_changeset_values(34)
+#5 /home/gearslite/public_html/renato/wp-includes/class-wp-hook.php(298): _wp_customize_publish_cha in /home/gearslite/public_html/renato/wp-content/themes/weblog/acmethemes/customizer/options/options-reset.php on line 25

@@ -1,0 +1,33 @@
+== Change log ==
+
+= 1.2.0 - July 05 2017 =
+* Added: Front Page, Archive and Single Page/Post Advanced Sidebar
+* Added: Single Post Options
+* Added: Blog/Archive Image Size
+* Added: Single Image Size
+* Added: Read More Text on Blog/Archive Page
+* Added: Related Post form Category or Tag
+* Added: WooCommerce Support
+* Added: Acme Demo Setup
+* Added: Theme Info Page on Admin
+* Added: Date Options
+* Added: Sticky Menu
+* Add: Sticky Sidebar Options
+* Add: Page Builder Compatible
+* Fixed: Reset
+* Fixed: Excerpt hooks
+* Update: Breadcrumbs
+* Update: Customizer Experience
+
+= 1.0.1 =
+* Fix: Minor Bugs
+
+= 1.0.0 =
+* Fix: Minor Bugs
+
+= 0.0.9 =
+* Update: Extend theme options
+* Fix: CSS tweaks
+
+= 0.0.1 =
+* Submitted to WordPress.org
